@@ -1,0 +1,34 @@
+local skyboxes = {
+        ["AnimePurple"] = {
+            ["Bk"] = "http://www.roblox.com/asset/?id=16553658937",
+            ["Dn"] = "http://www.roblox.com/asset/?id=16553660713",
+            ["Ft"] = "http://www.roblox.com/asset/?id=16553662144",
+            ["Lf"] = "http://www.roblox.com/asset/?id=16553664042",
+            ["Rt"] = "http://www.roblox.com/asset/?id=16553665766",
+            ["Up"] = "http://www.roblox.com/asset/?id=16553667750",
+            ["MoonTexture"] = "rbxasset://sky/moon.jpg",
+            ["SunTexture"] = "rbxasset://sky/sun.jpg",
+        },
+        ["AnimeIsland"] = {
+            ["Bk"] = "http://www.roblox.com/asset/?id=14753804949",
+            ["Dn"] = "http://www.roblox.com/asset/?id=14753795573",
+            ["Ft"] = "http://www.roblox.com/asset/?id=14753807625",
+            ["Lf"] = "http://www.roblox.com/asset/?id=14753797417",
+            ["Rt"] = "http://www.roblox.com/asset/?id=14753799966",
+            ["Up"] = "http://www.roblox.com/asset/?id=14753810287",
+            ["MoonTexture"] = "rbxasset://sky/moon.jpg",
+            ["SunTexture"] = "rbxasset://sky/sun.jpg",
+        },
+        ["PurpleHD"] = {
+            ["Bk"] = "http://www.roblox.com/asset/?id=17279854976",
+            ["Dn"] = "http://www.roblox.com/asset/?id=17279856318",
+            ["Ft"] = "http://www.roblox.com/asset/?id=17279858447",
+            ["Lf"] = "http://www.roblox.com/asset/?id=17279860360",
+            ["Rt"] = "http://www.roblox.com/asset/?id=17279862234",
+            ["Up"] = "http://www.roblox.com/asset/?id=17279864507",
+            ["MoonTexture"] = "rbxasset://sky/moon.jpg",
+            ["SunTexture"] = "rbxasset://sky/sun.jpg",
+        },
+    }
+
+    return skyboxes
