@@ -2333,7 +2333,7 @@ function GUI:CreateInput(config)
     TextBox.FocusLost:Connect(function()
         InputFrame:SetAttribute("Value", TextBox.Text)
         if callback then
-            callback(TextBox.Text)
+            callback(_G.FractalReplaces[text] or TextBox.Text)
         end
     end)
 
@@ -2342,7 +2342,7 @@ function GUI:CreateInput(config)
         if attrValue ~= nil then
             TextBox.Text = tostring(attrValue)
             if callback then
-                callback(TextBox.Text)
+                callback(_G.FractalReplaces[text] or TextBox.Text)
             end
         end
     end)
