@@ -1,4 +1,4 @@
-local HttpService = game:GetService("HttpService")
+local HttpService = cloneref(game:GetService("HttpService"))
 
 local Embed = {}
 Embed.__index = Embed
