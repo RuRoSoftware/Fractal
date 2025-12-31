@@ -89,6 +89,3 @@ WebhookLib.SendSimple(WEBHOOK_URL, "Server started on node 87.249.37.170", "Syst
 ## 🎨 Color Palette (`Embed.Colors`)
 The following constants are available for use with the `:SetColor()` method:
 `DEFAULT`, `AQUA`, `GREEN`, `BLUE`, `PURPLE`, `GOLD`, `ORANGE`, `RED`, `GREY`, `NAVY`, `LUMINOUS_VIVID_PINK`, and their `DARK_` variants.
-
----
-*This library is designed to enhance server monitoring and debugging for Roblox developers.*
