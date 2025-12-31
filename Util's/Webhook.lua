@@ -1,5 +1,4 @@
 local HttpService = cloneref(game:GetService("HttpService"))
-local Embed = loadstring(game:HttpGet("https://raw.githubusercontent.com/FractalINK/Fractal/refs/heads/main/Util's/Embed.lua"))()
 
 local DiscordWebhook = {}
 DiscordWebhook.__index = DiscordWebhook
@@ -49,12 +48,6 @@ function DiscordWebhook:AddEmbeds(embeds)
         self:AddEmbed(embed)
     end
     return self
-end
-
-function DiscordWebhook:CreateEmbed()
-    local embed = Embed.new()
-    self:AddEmbed(embed)
-    return embed
 end
 
 function DiscordWebhook:ClearEmbeds()
